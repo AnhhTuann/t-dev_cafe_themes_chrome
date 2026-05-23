@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "T-Dev Cold Brew Chrome Theme",
+  "description": "Chrome theme based on T-Dev Cold Brew",
+  "theme": {
+    "colors": {
+      "frame": [
+        5,
+        8,
+        15
+      ],
+      "frame_inactive": [
+        5,
+        8,
+        15
+      ],
+      "toolbar": [
+        13,
+        17,
+        23
+      ],
+      "tab_text": [
+        230,
+        237,
+        243
+      ],
+      "tab_background_text": [
+        139,
+        148,
+        158
+      ],
+      "bookmark_text": [
+        230,
+        237,
+        243
+      ],
+      "ntp_background": [
+        13,
+        17,
+        23
+      ],
+      "ntp_text": [
+        230,
+        237,
+        243
+      ]
+    }
+  }
+}

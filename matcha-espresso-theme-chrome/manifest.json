@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "T-Dev Matcha Lavender Chrome Theme",
+  "description": "Chrome theme based on T-Dev Matcha Lavender",
+  "theme": {
+    "colors": {
+      "frame": [
+        14,
+        18,
+        15
+      ],
+      "frame_inactive": [
+        14,
+        18,
+        15
+      ],
+      "toolbar": [
+        19,
+        24,
+        21
+      ],
+      "tab_text": [
+        209,
+        213,
+        219
+      ],
+      "tab_background_text": [
+        75,
+        85,
+        99
+      ],
+      "bookmark_text": [
+        209,
+        213,
+        219
+      ],
+      "ntp_background": [
+        19,
+        24,
+        21
+      ],
+      "ntp_text": [
+        209,
+        213,
+        219
+      ]
+    }
+  }
+}

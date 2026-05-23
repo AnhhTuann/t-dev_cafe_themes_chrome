@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "T-Dev Red Velvet Latte Chrome Theme",
+  "description": "Chrome theme based on T-Dev Red Velvet Latte",
+  "theme": {
+    "colors": {
+      "frame": [
+        18,
+        5,
+        7
+      ],
+      "frame_inactive": [
+        18,
+        5,
+        7
+      ],
+      "toolbar": [
+        30,
+        11,
+        14
+      ],
+      "tab_text": [
+        255,
+        240,
+        245
+      ],
+      "tab_background_text": [
+        124,
+        85,
+        90
+      ],
+      "bookmark_text": [
+        255,
+        240,
+        245
+      ],
+      "ntp_background": [
+        30,
+        11,
+        14
+      ],
+      "ntp_text": [
+        255,
+        240,
+        245
+      ]
+    }
+  }
+}

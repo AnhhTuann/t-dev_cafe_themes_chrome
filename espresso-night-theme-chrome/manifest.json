@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "T-Dev Cafe Night Chrome Theme",
+  "description": "Chrome theme based on T-Dev Cafe Night",
+  "theme": {
+    "colors": {
+      "frame": [
+        8,
+        5,
+        4
+      ],
+      "frame_inactive": [
+        8,
+        5,
+        4
+      ],
+      "toolbar": [
+        13,
+        9,
+        7
+      ],
+      "tab_text": [
+        245,
+        235,
+        224
+      ],
+      "tab_background_text": [
+        92,
+        78,
+        67
+      ],
+      "bookmark_text": [
+        245,
+        235,
+        224
+      ],
+      "ntp_background": [
+        13,
+        9,
+        7
+      ],
+      "ntp_text": [
+        245,
+        235,
+        224
+      ]
+    }
+  }
+}

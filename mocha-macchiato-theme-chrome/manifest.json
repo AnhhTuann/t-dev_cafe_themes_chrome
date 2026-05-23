@@ -1,0 +1,50 @@
+{
+  "manifest_version": 3,
+  "version": "1.0",
+  "name": "T-Dev Mocha Macchiato Chrome Theme",
+  "description": "Chrome theme based on T-Dev Mocha Macchiato",
+  "theme": {
+    "colors": {
+      "frame": [
+        19,
+        13,
+        10
+      ],
+      "frame_inactive": [
+        19,
+        13,
+        10
+      ],
+      "toolbar": [
+        25,
+        18,
+        14
+      ],
+      "tab_text": [
+        243,
+        227,
+        211
+      ],
+      "tab_background_text": [
+        92,
+        74,
+        61
+      ],
+      "bookmark_text": [
+        243,
+        227,
+        211
+      ],
+      "ntp_background": [
+        25,
+        18,
+        14
+      ],
+      "ntp_text": [
+        243,
+        227,
+        211
+      ]
+    }
+  }
+}
