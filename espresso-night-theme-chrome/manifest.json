@@ -6,14 +6,14 @@
   "theme": {
     "colors": {
       "frame": [
-        8,
-        5,
-        4
+        255,
+        46,
+        147
       ],
       "frame_inactive": [
-        8,
-        5,
-        4
+        204,
+        37,
+        118
       ],
       "toolbar": [
         13,
@@ -26,9 +26,9 @@
         224
       ],
       "tab_background_text": [
-        150,
-        143,
-        136
+        240,
+        240,
+        240
       ],
       "bookmark_text": [
         245,
