@@ -41,7 +41,20 @@ themeFiles.forEach(file => {
     const activityBarBg = colors['activityBar.background'] || '#000000';
     const editorBg = colors['editor.background'] || '#ffffff';
     const editorFg = colors['editor.foreground'] || '#000000';
-    const fgMuted = colors['editorLineNumber.foreground'] || '#888888';
+
+    // Helper to blend two RGB arrays
+    function blendRgb(fg, bg, alpha) {
+        return [
+            Math.round(fg[0] * alpha + bg[0] * (1 - alpha)),
+            Math.round(fg[1] * alpha + bg[1] * (1 - alpha)),
+            Math.round(fg[2] * alpha + bg[2] * (1 - alpha))
+        ];
+    }
+    
+    const fgRgb = hexToRgb(editorFg);
+    const bgRgb = hexToRgb(activityBarBg);
+    // Make inactive tab text 60% of the foreground brightness to remain visible
+    const fgMutedRgb = blendRgb(fgRgb, bgRgb, 0.6);
 
     const chromeManifest = {
         manifest_version: 3,
@@ -54,7 +67,7 @@ themeFiles.forEach(file => {
                 frame_inactive: hexToRgb(activityBarBg),
                 toolbar: hexToRgb(editorBg),
                 tab_text: hexToRgb(editorFg),
-                tab_background_text: hexToRgb(fgMuted),
+                tab_background_text: fgMutedRgb,
                 bookmark_text: hexToRgb(editorFg),
                 ntp_background: hexToRgb(editorBg),
                 ntp_text: hexToRgb(editorFg)
